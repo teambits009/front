@@ -1,0 +1,75 @@
+{
+  "name": "finetech-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.3.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-google-maps/api": "^2.19.3",
+    "@react-login-page/page1": "^1.0.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.15.0",
+    "apexcharts": "^3.48.0",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.2",
+    "firebase": "^10.8.1",
+    "font-awesome-icons": "^1.6.0",
+    "i18next": "^23.12.2",
+    "lucide-react": "^0.408.0",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-avatar-editor": "^13.0.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-country-region-selector": "^3.6.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-google-multi-lang": "^1.0.6",
+    "react-i18next": "^15.0.0",
+    "react-icons": "^5.2.1",
+    "react-login-page": "^1.0.4",
+    "react-phone-number-input": "^3.3.9",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "react-sliding-side-panel": "^2.0.3",
+    "react-svg-credit-card-payment-icons": "^3.1.1",
+    "react-toastify": "^10.0.5",
+    "rsuite": "^5.55.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

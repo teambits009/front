@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

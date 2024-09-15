@@ -1,0 +1,80 @@
+body {
+    background-color: #f6f6f7;
+  }
+  /* ADMIN DASHBOARD CSS */
+  .dashboard {
+      display: grid;
+      grid-template-columns: 16rem auto;
+  }
+  
+  @media (max-width: 1024px) {
+    .dashboard{
+      grid-template-columns: 0fr 1fr;
+      margin-inline: auto;
+      margin-bottom: 30px;
+    }
+    .dashboard-charts{
+      grid-template-columns: auto;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .dashboard-charts{
+      grid-template-columns: auto;
+    }
+  }
+  
+  .sidebar { 
+      overflow: auto;
+      overflow-y: overlay;
+      height: 90vh;
+    }
+    
+    
+  
+    /* SIDEBAR styles */
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-radius: 5px;
+      padding-inline: 5px;
+      padding: 5px;
+      cursor: pointer;
+      margin-bottom: 4px;
+      width: 100%;
+    }
+  
+    .nav-link:hover {
+      background-color: #dadee2;
+    }
+  
+    .nav-link.active{
+      background-color: #dadee2;
+      border-left: 3px solid #015FF1;
+    }
+  
+  .shadow-custom {
+      box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+  }
+  
+  .country,
+  .county{
+    border: 1px solid #c7c9cd;
+    outline: none;
+    border-radius: 5px;
+    padding-block: 3px;
+    padding-inline: 8px;
+    width: 100%;
+  }
+  
+  .country:active,
+  .country:focus,
+  .county:active,
+  .county:focus {
+    border: 1px solid #015FF1;
+    outline: 0px solid #015FF1;
+  }
+
+
+  
